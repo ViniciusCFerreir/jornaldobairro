@@ -1,0 +1,124 @@
+ header{
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;;
+    background-color: #343434;
+    
+   
+    
+    animation-name: Ola;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation: infinite;
+    ;
+
+}
+
+#titulo{
+  
+    animation: Ola infinite;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    font-size: 30px;
+    color: rgb(39, 146, 146);
+    padding-top: 10px;
+}
+
+header nav ul{
+    list-style-type: none; 
+}
+
+header nav ul li{ 
+    display: inline;
+    font-size: 20px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #aaacb1;
+    display: inline-block;
+    padding: 30px
+}
+  
+body {
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom:40px;
+    background-color: #343434;
+}
+#PR {
+    background-color: #ffff;
+    font-family:'Lora', serif;
+    color: black;
+    text-align: center;;
+    padding: 10px;
+   
+}
+p {
+    font-size: 26px;  
+}
+
+h2 {
+    font-size: 40px;
+   
+}
+
+footer{ 
+    text-align: center;
+    color: yellow;
+    font-size: 15px;
+}
+
+footer a{
+    
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: indigo;
+}
+
+#int{
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover{
+    background-color: rgb(9, 97, 211);
+}
+
+footer a:visited{
+    color: red;
+    
+     
+}
+
+@keyframes Ola{
+    0%{ 
+        color: rgb(39, 146, 146);
+     
+    }
+
+    20%{
+        color:red ;
+    }
+
+    40%{
+        color: greenyellow;
+    }
+
+    60%{
+        color: yellow;
+    }
+
+    70%{
+        color: violet;
+    }
+
+    80%{ 
+        color: turquoise;
+    }
+
+    100%{ 
+        color: rgb(39, 146, 146)
+    }
+}
